@@ -1,135 +1,137 @@
-" This file undoes all the mappings from the colemak.vim file.
+function! ColemakDisable()
+    nunmap n
+    xunmap n
+    ounmap n
+    nunmap u
+    xunmap u
+    ounmap u
+    nunmap e
+    xunmap e
+    ounmap e
+    nunmap i
+    xunmap i
+    ounmap i
+    nunmap U
+    xunmap U
+    ounmap U
+    nunmap E
+    xunmap E
+    ounmap E
+    nunmap L
+    xunmap L
+    ounmap L
+    nunmap Y
+    xunmap Y
+    ounmap Y
+    nunmap j
+    nunmap h
+    xunmap j
+    xunmap h
+    nunmap <PageUp>
+    nunmap <PageDown>
+    vunmap <PageUp>
+    vunmap <PageDown>
+    vunmap <S-PageUp>
+    vunmap <S-PageDown>
+    nunmap <C-u>
+    nunmap <C-e>
+    vunmap <C-u>
+    vunmap <C-e>
+    nunmap l
+    xunmap l
+    ounmap l
+    nunmap y
+    xunmap y
+    ounmap y
+    nunmap <C-l>
+    vunmap <C-l>
+    ounmap <C-l>
+    nunmap <C-y>
+    vunmap <C-y>
+    ounmap <C-y>
+    nunmap N
+    xunmap N
+    ounmap N
+    nunmap I
+    xunmap I
+    ounmap I
+    ounmap r
+    vunmap r
+    ounmap t
+    vunmap t
+    ounmap R
+    vunmap R
+    nunmap b
+    xunmap b
+    nunmap bu
+    xunmap bu
+    nunmap be
+    xunmap be
+    nunmap c
+    xunmap c
+    nunmap v
+    xunmap v
+    nunmap C
+    xunmap C
+    nunmap V
+    xunmap V
+    nunmap z
+    xunmap z
+    nunmap gz
+    xunmap gz
+    nunmap Z
+    xunmap Z
+    nunmap s
+    nunmap S
+    nunmap t
+    nunmap T
+    nunmap w
+    xunmap w
+    nunmap W
+    xunmap W
+    nunmap ww
+    nunmap a
+    xunmap a
+    nunmap A
+    xunmap A
+    nunmap k
+    xunmap k
+    ounmap k
+    nunmap K
+    xunmap K
+    ounmap K
+    nunmap p
+    xunmap p
+    ounmap p
+    nunmap P
+    xunmap P
+    ounmap P
+    nunmap dt
+    nunmap Q
+    nunmap gs
+    xunmap gs
+    nunmap gX
+    xunmap gX
+    nunmap gU
+    xunmap gU
+    nunmap gQ
+    xunmap gQ
+    nunmap gK
+    xunmap gK
+    nunmap gh
+    xunmap gh
+    nunmap <C-w>n
+    xunmap <C-w>n
+    nunmap <C-w>u
+    xunmap <C-w>u
+    nunmap <C-w>e
+    xunmap <C-w>e
+    nunmap <C-w>i
+    xunmap <C-w>i
+    nunmap <C-w>N
+    nunmap <C-w>U
+    nunmap <C-w>E
+    nunmap <C-w>I
+endfunction
 
-nunmap n
-xunmap n
-ounmap n
-nunmap u
-xunmap u
-ounmap u
-nunmap e
-xunmap e
-ounmap e
-nunmap i
-xunmap i
-ounmap i
-nunmap U
-xunmap U
-ounmap U
-nunmap E
-xunmap E
-ounmap E
-nunmap L
-xunmap L
-ounmap L
-nunmap Y
-xunmap Y
-ounmap Y
-nunmap j
-nunmap h
-xunmap j
-xunmap h
-nunmap <PageUp>
-nunmap <PageDown>
-vunmap <PageUp>
-vunmap <PageDown>
-vunmap <S-PageUp>
-vunmap <S-PageDown>
-nunmap <C-u>
-nunmap <C-e>
-vunmap <C-u>
-vunmap <C-e>
-nunmap l
-xunmap l
-ounmap l
-nunmap y
-xunmap y
-ounmap y
-nunmap <C-l>
-vunmap <C-l>
-ounmap <C-l>
-nunmap <C-y>
-vunmap <C-y>
-ounmap <C-y>
-nunmap N
-xunmap N
-ounmap N
-nunmap I
-xunmap I
-ounmap I
-ounmap r
-vunmap r
-ounmap t
-vunmap t
-ounmap R
-vunmap R
-nunmap b
-xunmap b
-nunmap bu
-xunmap bu
-nunmap be
-xunmap be
-nunmap c
-xunmap c
-nunmap v
-xunmap v
-nunmap C
-xunmap C
-nunmap V
-xunmap V
-nunmap z
-xunmap z
-nunmap gz
-xunmap gz
-nunmap Z
-xunmap Z
-nunmap s
-nunmap S
-nunmap t
-nunmap T
-nunmap w
-xunmap w
-nunmap W
-xunmap W
-nunmap ww
-nunmap a
-xunmap a
-nunmap A
-xunmap A
-nunmap k
-xunmap k
-ounmap k
-nunmap K
-xunmap K
-ounmap K
-nunmap p
-xunmap p
-ounmap p
-nunmap P
-xunmap P
-ounmap P
-nunmap dt
-nunmap Q
-nunmap gs
-xunmap gs
-nunmap gX
-xunmap gX
-nunmap gU
-xunmap gU
-nunmap gQ
-xunmap gQ
-nunmap gK
-xunmap gK
-nunmap gh
-xunmap gh
-nunmap <C-w>n
-xunmap <C-w>n
-nunmap <C-w>u
-xunmap <C-w>u
-nunmap <C-w>e
-xunmap <C-w>e
-nunmap <C-w>i
-xunmap <C-w>i
-nunmap <C-w>N
-nunmap <C-w>U
-nunmap <C-w>E
-nunmap <C-w>I
+command! ColemakDisable call ColemakDisable()

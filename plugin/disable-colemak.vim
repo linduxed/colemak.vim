@@ -68,14 +68,10 @@ nunmap bu
 xunmap bu
 nunmap be
 xunmap be
-nunmap x
-xunmap x
 nunmap c
 xunmap c
 nunmap v
 xunmap v
-nunmap X
-xunmap X
 nunmap C
 xunmap C
 nunmap V

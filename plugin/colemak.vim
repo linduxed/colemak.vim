@@ -123,3 +123,4 @@ function! ColemakEnable()
 endfunction
 
 command! ColemakEnable call ColemakEnable()
+ColemakEnable

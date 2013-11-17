@@ -1,21 +1,7 @@
-" (nv  )       n = Left        ,     i = Right          , u = Up   , e = Down
-" (nv  )       N = Back EOword ,     I = Forward EOword , U = Up*5 , E = Down*5
-" (nv  )       l = Left 1 word ,     y = Right 1 word
-" (nv  )   <C-l> = Left 1 WORD , <C-y> = Right 1 WORD
-" (nv  )       L = Home        ,     Y = End
-" (nv  )       j = PageUp      ,     h = PageDown
-" (nvi )   <Tab> = Escape (also stops search highlight in normal mode)
-" (   c) <S-Tab> = Escape
-" (nvi ) <S-Tab> = Tab
-" (nvic) <Space> = Space
-" Legend:
-" S - Shift, C - Ctrl
-" (c - command line, i - insert mode, n - normal mode, v - visual+select mode)
-"
 if v:version < 700 | echohl WarningMsg | echo "colemak.vim: You need Vim version 7.0 or later" | echohl None | finish | endif
 
-" Added the 'g' in front of 'j' and 'k' for visual line navigation.
 " Up/down/left/right
+" Added the 'g' in front of 'j' and 'k' for visual line navigation.
 nnoremap n h|xnoremap n h|onoremap n h|
 nnoremap u gk|xnoremap u k|onoremap u k|
 nnoremap e gj|xnoremap e j|onoremap e j|
@@ -25,7 +11,7 @@ nnoremap i l|xnoremap i l|onoremap i l|
 nnoremap <silent> U 5gk|xnoremap <silent> U 5gk|onoremap U 5gk|
 nnoremap <silent> E 5gj|xnoremap <silent> E 5gj|onoremap E 5gj|
 
-" Home/end of line
+" Beginning/end of line
 nnoremap L ^|xnoremap L ^|onoremap L ^|
 nnoremap Y $|xnoremap Y $|onoremap Y $|
 
@@ -47,10 +33,9 @@ nnoremap <C-e> <C-o>
 vnoremap <C-u> <C-i>
 vnoremap <C-e> <C-o>
 
-" Words forwards/backwards
+" Word left/right
 nnoremap l b|xnoremap l b|onoremap l b|
 nnoremap y w|xnoremap y w|onoremap y w|
-" WORD left/right
 nnoremap <C-l> B|vnoremap <C-l> B|onoremap <C-l> B|
 nnoremap <C-y> W|vnoremap <C-y> W|onoremap <C-y> W|
 
@@ -68,16 +53,14 @@ vnoremap t a
 onoremap R r
 vnoremap R r
 
-" Folds, etc.
+" Folds
 nnoremap b z|xnoremap b z|
 nnoremap bu zk|xnoremap bu zk|
 nnoremap be zj|xnoremap be zj|
 
-" Cut/copy/paste
-nnoremap x x|xnoremap x d|
+" Copy/paste
 nnoremap c y|xnoremap c y|
 nnoremap v gP|xnoremap v gP|
-nnoremap X dd|xnoremap X d|
 nnoremap C yy|xnoremap C y|
 nnoremap V p|xnoremap V p|
 
@@ -86,7 +69,7 @@ nnoremap z u|xnoremap z :<C-u>undo<CR>|
 nnoremap gz U|xnoremap gz U<C-u>undo<CR>|
 nnoremap Z <C-r>|xnoremap Z :<C-u>redo<CR>|
 
-" inSert/Replace/append (T)
+" inSert/append (T)
 nnoremap s i|
 nnoremap S I|
 nnoremap t a|
@@ -105,6 +88,7 @@ nnoremap A V|xnoremap A V|
 nnoremap k n|xnoremap k n|onoremap k n|
 nnoremap K N|xnoremap K N|onoremap K N|
 
+" 'til
 " Breaks diffput
 nnoremap p t|xnoremap p t|onoremap p t|
 nnoremap P T|xnoremap P T|onoremap P T|

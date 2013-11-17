@@ -35,3 +35,11 @@ colemak.vim. Back then I didn't feel like making up something which breaks less
 bindings, these days I'm just too used to it.
 
 There are other changes, but you can look those up in the actual mapping file.
+
+Other stuff
+-----------
+
+Apart from the file with the mappings a file with *unmappings* was added.
+Together, these two files provide you with the commands `:ColemakEnable` and
+`:ColemakDisable`, of which the first one is run automatically when starting
+Vim.

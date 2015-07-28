@@ -94,6 +94,7 @@ function! ColemakDisable()
     xunmap a
     nunmap A
     xunmap A
+    vunmap S
     nunmap k
     xunmap k
     ounmap k

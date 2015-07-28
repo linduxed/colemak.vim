@@ -85,6 +85,9 @@ function! ColemakEnable()
     nnoremap a v|xnoremap a v|
     nnoremap A V|xnoremap A V|
 
+    " Insert in Visual mode
+    vnoremap S I
+
     " Search
     nnoremap k n|xnoremap k n|onoremap k n|
     nnoremap K N|xnoremap K N|onoremap K N|

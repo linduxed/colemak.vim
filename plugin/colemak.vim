@@ -103,6 +103,10 @@ function! ColemakEnable()
     " Macros (replay the macro recorded by qq)
     nnoremap Q @q|
 
+    " Cursor to bottom of screen
+    " H and M haven't been remapped, only L needs to be mapped
+    nnoremap B L
+
     " Misc overridden keys must be prefixed with g
     nnoremap gs s|xnoremap gs s|
     nnoremap gS S|xnoremap gS S|

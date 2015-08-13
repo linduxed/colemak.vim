@@ -62,7 +62,7 @@ function! ColemakEnable()
     " Copy/paste
     nnoremap c y|xnoremap c y|
     nnoremap v p|xnoremap v p|
-    nnoremap C yy|xnoremap C y|
+    nnoremap C y$|xnoremap C y|
     nnoremap V P|xnoremap V P|
 
     " Undo/redo

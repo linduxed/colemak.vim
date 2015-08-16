@@ -64,6 +64,7 @@ function! ColemakEnable()
     nnoremap v p|xnoremap v p|
     nnoremap C y$|xnoremap C y|
     nnoremap V P|xnoremap V P|
+    nnoremap cc yy
 
     " Undo/redo
     nnoremap z u|xnoremap z :<C-u>undo<CR>|

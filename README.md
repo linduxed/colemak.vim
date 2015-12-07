@@ -10,9 +10,9 @@ I didn't like at all.
  [1]: http://colemak.com/pub/vim/colemak.vim
 
 The **colemak.vim** file has changed over the years to suit me and my
-needs/preferences; changes are still introduced from time to time.  
-This means that it most likely isn't suitable for someone who's looking for
-a "faithful translation of QWERTY Vim", since it's not an attempt to do that.
+needs/preferences; changes are still introduced from time to time. This means
+that it most likely isn't suitable for someone who's looking for a "faithful
+translation of QWERTY Vim", since it's not an attempt to do that.
 
 Main changes
 ------------

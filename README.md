@@ -43,3 +43,6 @@ Apart from the file with the mappings a file with *unmappings* was added.
 Together, these two files provide you with the commands `:ColemakEnable` and
 `:ColemakDisable`, of which the first one is run automatically when starting
 Vim.
+
+Also, a word of warning: if you decide to use this, it's likely you'll have to
+change the mappings for a bunch of your currently installed plugins.

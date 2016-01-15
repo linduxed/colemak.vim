@@ -56,6 +56,7 @@ function! ColemakEnable()
 
     " Folds
     nnoremap b z|xnoremap b z|
+    nnoremap bb zb|xnoremap bb zb|
     nnoremap bu zk|xnoremap bu zk|
     nnoremap be zj|xnoremap be zj|
 

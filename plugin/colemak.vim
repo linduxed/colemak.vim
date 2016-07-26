@@ -8,10 +8,6 @@ function! ColemakEnable()
     nnoremap e gj|xnoremap e j|onoremap e j|
     nnoremap i l|xnoremap i l|onoremap i l|
 
-    " Added the 'g' in front of 'j' and 'k' for visual line navigation.
-    nnoremap <silent> U 5gk|xnoremap <silent> U 5gk|onoremap U 5gk|
-    nnoremap <silent> E 5gj|xnoremap <silent> E 5gj|onoremap E 5gj|
-
     " Beginning/end of line
     nnoremap L ^|xnoremap L ^|onoremap L ^|
     nnoremap Y $|xnoremap Y $|onoremap Y $|

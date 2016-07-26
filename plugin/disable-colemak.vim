@@ -11,12 +11,6 @@ function! ColemakDisable()
     nunmap i
     xunmap i
     ounmap i
-    nunmap U
-    xunmap U
-    ounmap U
-    nunmap E
-    xunmap E
-    ounmap E
     nunmap L
     xunmap L
     ounmap L

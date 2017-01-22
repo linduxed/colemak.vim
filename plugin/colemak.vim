@@ -106,7 +106,6 @@ function! ColemakEnable()
     nnoremap B L
 
     " Misc overridden keys must be prefixed with g
-    nnoremap gs s|xnoremap gs s|
     nnoremap gS S|xnoremap gS S|
     nnoremap gX X|xnoremap gX X|
     nnoremap gU U|xnoremap gU U|

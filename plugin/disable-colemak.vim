@@ -106,8 +106,6 @@ function! ColemakDisable()
     nunmap dt
     nunmap Q
     nunmap B
-    nunmap gs
-    xunmap gs
     nunmap gS
     xunmap gS
     nunmap gX

@@ -104,6 +104,7 @@ function! ColemakEnable()
     " Cursor to bottom of screen
     " H and M haven't been remapped, only L needs to be mapped
     nnoremap B L
+    vnoremap B L
 
     " Misc overridden keys must be prefixed with g
     nnoremap gS S|xnoremap gS S|

@@ -2,10 +2,9 @@ if v:version < 700 | echohl WarningMsg | echo "colemak.vim: You need Vim version
 
 function! ColemakEnable()
     " Up/down/left/right
-    " Added the 'g' in front of 'j' and 'k' for visual line navigation.
     nnoremap n h|xnoremap n h|onoremap n h|
-    nnoremap u gk|xnoremap u k|onoremap u k|
-    nnoremap e gj|xnoremap e j|onoremap e j|
+    nnoremap u k|xnoremap u k|onoremap u k|
+    nnoremap e j|xnoremap e j|onoremap e j|
     nnoremap i l|xnoremap i l|onoremap i l|
 
     " Beginning/end of line

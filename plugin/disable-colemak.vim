@@ -72,11 +72,8 @@ function! ColemakDisable()
     nunmap cc
     xunmap cc
     nunmap z
-    xunmap z
     nunmap gz
-    xunmap gz
     nunmap Z
-    xunmap Z
     nunmap s
     nunmap S
     nunmap t

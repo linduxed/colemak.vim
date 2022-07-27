@@ -57,9 +57,9 @@ function! ColemakEnable()
     nnoremap cc yy
 
     " Undo/redo
-    nnoremap z u|xnoremap z :<C-u>undo<CR>|
-    nnoremap gz U|xnoremap gz U<C-u>undo<CR>|
-    nnoremap Z <C-r>|xnoremap Z :<C-u>redo<CR>|
+    nnoremap z u
+    nnoremap gz U
+    nnoremap Z <C-r>
 
     " inSert/append (T)
     nnoremap s i|

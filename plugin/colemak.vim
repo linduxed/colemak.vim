@@ -12,10 +12,10 @@ function! ColemakEnable()
     nnoremap Y $|xnoremap Y $|onoremap Y $|
 
     " PageUp/PageDown
-    nnoremap <silent> <expr> j (winheight(0)-1) . "\<C-u>"
-    nnoremap <silent> <expr> h (winheight(0)-1) . "\<C-d>"
-    xnoremap <silent> <expr> j (winheight(0)-1) . "\<C-u>"
-    xnoremap <silent> <expr> h (winheight(0)-1) . "\<C-d>"
+    nnoremap j <PageUp>
+    nnoremap h <PageDown>
+    xnoremap j <PageUp>
+    xnoremap h <PageDown>
 
     " Jumplist navigation
     nnoremap <C-u> <C-i>

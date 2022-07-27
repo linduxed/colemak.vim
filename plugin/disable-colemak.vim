@@ -21,12 +21,6 @@ function! ColemakDisable()
     nunmap h
     xunmap j
     xunmap h
-    nunmap <PageUp>
-    nunmap <PageDown>
-    vunmap <PageUp>
-    vunmap <PageDown>
-    vunmap <S-PageUp>
-    vunmap <S-PageDown>
     nunmap <C-u>
     nunmap <C-e>
     vunmap <C-u>

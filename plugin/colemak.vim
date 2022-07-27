@@ -16,12 +16,6 @@ function! ColemakEnable()
     nnoremap <silent> <expr> h (winheight(0)-1) . "\<C-d>"
     xnoremap <silent> <expr> j (winheight(0)-1) . "\<C-u>"
     xnoremap <silent> <expr> h (winheight(0)-1) . "\<C-d>"
-    nnoremap <silent> <expr> <PageUp> (winheight(0)-1) . "\<C-u>"
-    nnoremap <silent> <expr> <PageDown> (winheight(0)-1) . "\<C-d>"
-    vnoremap <silent> <expr> <PageUp> (winheight(0)-1) . "\<C-u>"
-    vnoremap <silent> <expr> <PageDown> (winheight(0)-1) . "\<C-d>"
-    vnoremap <silent> <expr> <S-PageUp> (winheight(0)-1) . "\<C-u>"
-    vnoremap <silent> <expr> <S-PageDown> (winheight(0)-1) . "\<C-d>"
 
     " Jumplist navigation
     nnoremap <C-u> <C-i>

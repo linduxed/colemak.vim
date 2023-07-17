@@ -55,6 +55,7 @@ function! ColemakDisable()
     xunmap bu
     nunmap be
     xunmap be
+    ounmap c
     nunmap c
     xunmap c
     nunmap v
@@ -72,11 +73,11 @@ function! ColemakDisable()
     nunmap S
     nunmap t
     nunmap T
+    ounmap w
     nunmap w
     xunmap w
     nunmap W
     xunmap W
-    nunmap ww
     nunmap a
     xunmap a
     nunmap A

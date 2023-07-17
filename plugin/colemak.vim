@@ -50,11 +50,10 @@ function! ColemakEnable()
     nnoremap be zj|xnoremap be zj
 
     " Copy/paste
-    nnoremap c y|xnoremap c y
+    nnoremap c y|xnoremap c y|onoremap c y
     nnoremap v p|xnoremap v p
     nnoremap C y$|xnoremap C y
     nnoremap V P|xnoremap V P
-    nnoremap cc yy
 
     " Undo/redo
     nnoremap z u
@@ -68,9 +67,8 @@ function! ColemakEnable()
     nnoremap T A
 
     " Change
-    nnoremap w c|xnoremap w c
+    nnoremap w c|xnoremap w c|onoremap w c
     nnoremap W C|xnoremap W C
-    nnoremap ww cc
 
     " Visual mode
     nnoremap a v|xnoremap a v

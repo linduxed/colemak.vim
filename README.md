@@ -3,11 +3,17 @@ colemak.vim
 
 This set of remappings adjusts Vim to work with the Colemak keyboard layout.
 
+This project has been superseded [by the Neovim version][2]. For now the repo is not
+going to be archived, as other people than me *might* still want to use it and
+ask for changes, but I will not be updating it for myself. Archiving will
+*probably* happen some time in the future.
+
 It started out as a copy of [Shai Coleman's colemak.vim][1] but quickly
 changed when I realized that while some of his ideas were interesting, others
 I didn't like at all.
 
  [1]: http://colemak.com/pub/vim/colemak.vim
+ [2]: https://github.com/linduxed/colemak.nvim
 
 The **colemak.vim** file has changed over the years to suit me and my
 needs/preferences; changes are still introduced from time to time. This means
